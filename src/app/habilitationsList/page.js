@@ -1,8 +1,8 @@
 import Image from "next/image";
-import NavBar from "./components/NavBar/NavBar";
-import "./page.css"
+import NavBar from "../components/NavBar/NavBar";
+import "../habilitationsList/page.css"
 
-export default function Home() {
+export default function habilitationList() {
   return (
     <body>
       <header >
@@ -11,8 +11,7 @@ export default function Home() {
       <main >
         <section>
           <div>
-            <p>Bonjour Eloïse</p>
-            <p>Vous détenez 10 habilitations, 5 arrivent à expiration dans moins de 3 mois</p>
+            <p>La liste de vos habilitations</p>
           </div>
           <Image
             src="/assets/bouclier.png"
